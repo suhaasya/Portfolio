@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Layout>
         <h2 className=" text-xl md:font-bold leading-tight md:text-8xl text-white">
-          Hi, <br /> I'm Suhas, <br /> Web Developer
+          Hi, <br /> I{"'"}m Suhas, <br /> Web Developer
         </h2>
 
         <Link href={"/contact"}>
