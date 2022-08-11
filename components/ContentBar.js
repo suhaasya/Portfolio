@@ -19,13 +19,20 @@ export default function ContentBar({ child }) {
   }
   return (
     <div className="flex-auto w-10/12  bg-bgblack p-10 leading-10 h-full">
-      <div className="text-right lg:mb-16">
-        <button className="lg:hidden" onClick={openMenu}>
-          {menuOpen ? (
-            <ImCross size={"3.5rem"} />
-          ) : (
-            <MdOutlineMenu size={"3.5rem"} />
-          )}
+      <div className="flex justify-end mb-16 mt-4">
+        {/* <!-- Hamburger Icon --> */}
+        <button
+          id="menu-btn"
+          className={
+            menuOpen
+              ? "open block hamburger lg:hidden focus:outline-none"
+              : "block hamburger lg:hidden focus:outline-none"
+          }
+          onClick={openMenu}
+        >
+          <span className="hamburger-top"></span>
+          <span className="hamburger-middle"></span>
+          <span className="hamburger-bottom"></span>
         </button>
       </div>
       {menuOpen ? <Navbar /> : child}
