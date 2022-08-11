@@ -8,7 +8,8 @@ export default function about() {
           Hello, My name is Suhas Khobragade
         </h2>
         <p className=" text-white">
-          i am front-end Developer located in India.
+          i am front-end Developer located in{" "}
+          <span className="india-text">India</span>.
           <br />
           Well-organised Person, Problem solver. Fan of Movies and TV series.
           <br />

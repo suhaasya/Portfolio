@@ -18,7 +18,7 @@ export default function ContentBar({ child }) {
     setMenuOpen((prev) => !prev);
   }
   return (
-    <div className="flex-auto w-10/12  bg-bgblack p-10 leading-10 h-full">
+    <div className="flex-auto w-10/12  bg-bgblack p-10 leading-10">
       <div className="flex justify-end mb-16 mt-4">
         {/* <!-- Hamburger Icon --> */}
         <button
