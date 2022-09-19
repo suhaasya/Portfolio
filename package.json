@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhaasya/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhaasya/portfolio/issues"
+  },
+  "homepage": "https://github.com/suhaasya/portfolio#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16"
+  },
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
